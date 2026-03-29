@@ -61,7 +61,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 # Step 1: Read the image and convert the image into RGB
-image = cv2.imread('naveen.jpeg')  # Replace with your image path
+image = cv2.imread('img.jpeg')  # Replace with your image path
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 # Step 2: Display the original image
 plt.imshow(image_rgb)
